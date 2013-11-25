@@ -1,0 +1,31 @@
+<div class="actions clearfix">
+	<div class="btns">
+		<a class="btn submit" href="/admin/user/save" title="Criar Usuário">Criar usuário</a>
+	</div>
+</div>
+<label class="divisor"><span>Lista de Usuários</span></label>
+<table class="datatable">
+	<thead>
+		<tr>
+			<th>Nome</th>
+			<th>Login</th>
+			<th width="120" class="center">Opções</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach($users as $user): ?>
+		<tr>
+			<td><?php echo $this->escapeHtml($user->name); ?></td>
+			<td><?php echo $this->escapeHtml($user->username); ?></td>
+			<td class="center">
+				<a href="/admin/user/save/id/<?php echo $user->id; ?>" title="Editar" class="btn">
+					<i class="icon-edit"></i>
+				</a>
+				<a href="/admin/user/delete/id/<?php echo $user->id; ?>" rel="confirmation" title="Deseja excluir este registro?" class="btn">
+					<i class="icon-remove"></i>
+				</a>
+			</td>
+		</tr>
+		<?php endforeach; ?>
+	</tbody>
+</table>

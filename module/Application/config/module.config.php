@@ -59,6 +59,14 @@ return array(
         'factories' => array(
             'translator' => 'Zend\I18n\Translator\TranslatorServiceFactory',
         ),
+        'translator' => array(
+        	'locale' => 'pt_BR',
+        	'translation_file_patterns' => array(array(
+        		'type' => 'phparray',
+        		'base_dir' => __DIR__ . '/../language',
+        		'pattern' => '%s.php'
+        	))
+        )
     ),
     'translator' => array(
         'locale' => 'en_US',

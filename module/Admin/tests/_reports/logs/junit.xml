@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Skel Test Suite" tests="8" assertions="0" failures="0" errors="8" time="0.539549">
+    <testsuite name="AuthControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    <testsuite name="IndexControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    <testsuite name="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" tests="8" assertions="0" failures="0" errors="8" time="0.539549">
+      <testcase name="testUserIndexAction" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="23" assertions="0" time="0.321786">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserIndexAction
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserSaveActionNewRequest" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="49" assertions="0" time="0.038673">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserSaveActionNewRequest
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserSaveActionUpdateFormRequest" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="68" assertions="0" time="0.029829">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserSaveActionUpdateFormRequest
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserSaveActionPostRequest" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="95" assertions="0" time="0.030424">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserSaveActionPostRequest
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserUpdateAction" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="115" assertions="0" time="0.029672">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserUpdateAction
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserSaveActionInvalidPostRequest" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="142" assertions="0" time="0.029624">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserSaveActionInvalidPostRequest
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserInvalidDeleteAction" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="167" assertions="0" time="0.029847">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserInvalidDeleteAction
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+      <testcase name="testUserDeleteAction" class="UserControllerTest" file="/var/www/zf2napratica/module/Admin/tests/src/Admin/Controller/UserControllerTest.php" line="177" assertions="0" time="0.029694">
+        <error type="PHPUnit_Framework_Error_Notice">UserControllerTest::testUserDeleteAction
+Use of undefined constant pdo_mysql - assumed 'pdo_mysql'
+
+/var/www/zf2napratica/config/test.config.php:15
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/Config/Factory.php:87
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:341
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/Listener/ConfigListener.php:144
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:468
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php:207
+/var/www/zf2napratica/vendor/zendframework/zendframework/library/Zend/ModuleManager/ModuleManager.php:109
+/var/www/zf2napratica/module/Core/src/Core/Test/TestCase.php:48
+/var/www/zf2napratica/module/Core/src/Core/Test/ControllerTestCase.php:65
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

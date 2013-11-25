@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1383753985">
+  <project timestamp="1383753985">
+    <package name="Application">
+      <file name="/home/luan/Desenvolvimento/zf2napratica/module/Application/Module.php">
+        <class name="Module" namespace="Application">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="5" elements="13" coveredelements="7"/>
+        </class>
+        <line num="16" type="method" name="onBootstrap" crap="2" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="method" name="getConfig" crap="1" count="15"/>
+        <line num="26" type="stmt" count="15"/>
+        <line num="29" type="method" name="getAutoloaderConfig" crap="1" count="15"/>
+        <line num="34" type="stmt" count="15"/>
+        <line num="35" type="stmt" count="15"/>
+        <line num="36" type="stmt" count="15"/>
+        <line num="37" type="stmt" count="15"/>
+        <line num="40" type="stmt" count="1"/>
+        <metrics loc="39" ncloc="32" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="5" elements="13" coveredelements="7"/>
+      </file>
+    </package>
+    <file name="/home/luan/Desenvolvimento/zf2napratica/module/Application/config/module.config.php">
+      <line num="14" type="stmt" count="15"/>
+      <line num="16" type="stmt" count="15"/>
+      <line num="18" type="stmt" count="15"/>
+      <line num="19" type="stmt" count="15"/>
+      <line num="20" type="stmt" count="15"/>
+      <line num="21" type="stmt" count="15"/>
+      <line num="22" type="stmt" count="15"/>
+      <line num="23" type="stmt" count="15"/>
+      <line num="25" type="stmt" count="15"/>
+      <line num="27" type="stmt" count="15"/>
+      <line num="29" type="stmt" count="15"/>
+      <line num="30" type="stmt" count="15"/>
+      <line num="31" type="stmt" count="15"/>
+      <line num="33" type="stmt" count="15"/>
+      <line num="34" type="stmt" count="15"/>
+      <line num="35" type="stmt" count="15"/>
+      <line num="38" type="stmt" count="15"/>
+      <line num="40" type="stmt" count="15"/>
+      <line num="42" type="stmt" count="15"/>
+      <line num="43" type="stmt" count="15"/>
+      <line num="44" type="stmt" count="15"/>
+      <line num="46" type="stmt" count="15"/>
+      <line num="47" type="stmt" count="15"/>
+      <line num="51" type="stmt" count="15"/>
+      <line num="52" type="stmt" count="15"/>
+      <line num="53" type="stmt" count="15"/>
+      <line num="54" type="stmt" count="15"/>
+      <line num="55" type="stmt" count="15"/>
+      <line num="56" type="stmt" count="15"/>
+      <line num="57" type="stmt" count="15"/>
+      <line num="60" type="stmt" count="15"/>
+      <line num="61" type="stmt" count="15"/>
+      <line num="62" type="stmt" count="15"/>
+      <line num="64" type="stmt" count="15"/>
+      <line num="67" type="stmt" count="15"/>
+      <line num="68" type="stmt" count="15"/>
+      <line num="69" type="stmt" count="15"/>
+      <line num="70" type="stmt" count="15"/>
+      <line num="71" type="stmt" count="15"/>
+      <line num="72" type="stmt" count="15"/>
+      <line num="76" type="stmt" count="15"/>
+      <line num="77" type="stmt" count="15"/>
+      <line num="79" type="stmt" count="15"/>
+      <line num="80" type="stmt" count="15"/>
+      <line num="81" type="stmt" count="15"/>
+      <line num="82" type="stmt" count="15"/>
+      <line num="83" type="stmt" count="15"/>
+      <line num="85" type="stmt" count="15"/>
+      <line num="86" type="stmt" count="15"/>
+      <line num="87" type="stmt" count="15"/>
+      <line num="88" type="stmt" count="15"/>
+      <line num="90" type="stmt" count="15"/>
+      <line num="91" type="stmt" count="15"/>
+      <line num="92" type="stmt" count="15"/>
+      <line num="93" type="stmt" count="15"/>
+      <metrics loc="93" ncloc="84" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="55" coveredstatements="55" elements="55" coveredelements="55"/>
+    </file>
+    <file name="/home/luan/Desenvolvimento/zf2napratica/module/Application/data/test.data.php">
+      <line num="10" type="stmt" count="15"/>
+      <line num="12" type="stmt" count="15"/>
+      <line num="26" type="stmt" count="15"/>
+      <line num="28" type="stmt" count="15"/>
+      <line num="29" type="stmt" count="15"/>
+      <metrics loc="29" ncloc="29" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="5" coveredelements="5"/>
+    </file>
+    <package name="Application\Controller">
+      <file name="/home/luan/Desenvolvimento/zf2napratica/module/Application/src/Application/Controller/IndexController.php">
+        <class name="IndexController" namespace="Application\Controller">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="13" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="indexAction" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="27" ncloc="24" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="13" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Application\Model">
+      <file name="/home/luan/Desenvolvimento/zf2napratica/module/Application/src/Application/Model/Comment.php">
+        <class name="Comment" namespace="Application\Model" fullPackage="Model" category="Application" package="Model">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="74" coveredstatements="74" elements="75" coveredelements="75"/>
+        </class>
+        <line num="0" type="stmt" count="1"/>
+        <line num="58" type="method" name="getInputFilter" crap="2" count="7"/>
+        <line num="59" type="stmt" count="7"/>
+        <line num="60" type="stmt" count="7"/>
+        <line num="61" type="stmt" count="7"/>
+        <line num="63" type="stmt" count="7"/>
+        <line num="65" type="stmt" count="7"/>
+        <line num="66" type="stmt" count="7"/>
+        <line num="68" type="stmt" count="7"/>
+        <line num="69" type="stmt" count="7"/>
+        <line num="70" type="stmt" count="7"/>
+        <line num="71" type="stmt" count="7"/>
+        <line num="73" type="stmt" count="7"/>
+        <line num="75" type="stmt" count="7"/>
+        <line num="76" type="stmt" count="7"/>
+        <line num="78" type="stmt" count="7"/>
+        <line num="79" type="stmt" count="7"/>
+        <line num="80" type="stmt" count="7"/>
+        <line num="81" type="stmt" count="7"/>
+        <line num="83" type="stmt" count="7"/>
+        <line num="85" type="stmt" count="7"/>
+        <line num="86" type="stmt" count="7"/>
+        <line num="88" type="stmt" count="7"/>
+        <line num="89" type="stmt" count="7"/>
+        <line num="90" type="stmt" count="7"/>
+        <line num="91" type="stmt" count="7"/>
+        <line num="92" type="stmt" count="7"/>
+        <line num="94" type="stmt" count="7"/>
+        <line num="96" type="stmt" count="7"/>
+        <line num="97" type="stmt" count="7"/>
+        <line num="99" type="stmt" count="7"/>
+        <line num="100" type="stmt" count="7"/>
+        <line num="101" type="stmt" count="7"/>
+        <line num="103" type="stmt" count="7"/>
+        <line num="104" type="stmt" count="7"/>
+        <line num="105" type="stmt" count="7"/>
+        <line num="106" type="stmt" count="7"/>
+        <line num="108" type="stmt" count="7"/>
+        <line num="110" type="stmt" count="7"/>
+        <line num="111" type="stmt" count="7"/>
+        <line num="113" type="stmt" count="7"/>
+        <line num="114" type="stmt" count="7"/>
+        <line num="115" type="stmt" count="7"/>
+        <line num="118" type="stmt" count="7"/>
+        <line num="120" type="stmt" count="7"/>
+        <line num="121" type="stmt" count="7"/>
+        <line num="123" type="stmt" count="7"/>
+        <line num="124" type="stmt" count="7"/>
+        <line num="125" type="stmt" count="7"/>
+        <line num="126" type="stmt" count="7"/>
+        <line num="127" type="stmt" count="7"/>
+        <line num="129" type="stmt" count="7"/>
+        <line num="131" type="stmt" count="7"/>
+        <line num="132" type="stmt" count="7"/>
+        <line num="134" type="stmt" count="7"/>
+        <line num="135" type="stmt" count="7"/>
+        <line num="136" type="stmt" count="7"/>
+        <line num="139" type="stmt" count="7"/>
+        <line num="141" type="stmt" count="7"/>
+        <line num="142" type="stmt" count="7"/>
+        <line num="144" type="stmt" count="7"/>
+        <line num="145" type="stmt" count="7"/>
+        <line num="146" type="stmt" count="7"/>
+        <line num="147" type="stmt" count="7"/>
+        <line num="148" type="stmt" count="7"/>
+        <line num="150" type="stmt" count="7"/>
+        <line num="152" type="stmt" count="7"/>
+        <line num="153" type="stmt" count="7"/>
+        <line num="155" type="stmt" count="7"/>
+        <line num="156" type="stmt" count="7"/>
+        <line num="157" type="stmt" count="7"/>
+        <line num="158" type="stmt" count="7"/>
+        <line num="159" type="stmt" count="7"/>
+        <line num="161" type="stmt" count="7"/>
+        <line num="162" type="stmt" count="7"/>
+        <line num="163" type="stmt" count="7"/>
+        <line num="196" type="stmt" count="7"/>
+        <line num="235" type="stmt" count="7"/>
+        <metrics loc="164" ncloc="133" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="74" coveredstatements="74" elements="75" coveredelements="75"/>
+      </file>
+      <file name="/home/luan/Desenvolvimento/zf2napratica/module/Application/src/Application/Model/Post.php">
+        <class name="Post" namespace="Application\Model">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="43" elements="44" coveredelements="44"/>
+        </class>
+        <line num="44" type="method" name="getInputFilter" crap="2" count="10"/>
+        <line num="45" type="stmt" count="10"/>
+        <line num="46" type="stmt" count="10"/>
+        <line num="47" type="stmt" count="10"/>
+        <line num="49" type="stmt" count="10"/>
+        <line num="51" type="stmt" count="10"/>
+        <line num="52" type="stmt" count="10"/>
+        <line num="54" type="stmt" count="10"/>
+        <line num="55" type="stmt" count="10"/>
+        <line num="56" type="stmt" count="10"/>
+        <line num="57" type="stmt" count="10"/>
+        <line num="59" type="stmt" count="10"/>
+        <line num="61" type="stmt" count="10"/>
+        <line num="62" type="stmt" count="10"/>
+        <line num="64" type="stmt" count="10"/>
+        <line num="65" type="stmt" count="10"/>
+        <line num="66" type="stmt" count="10"/>
+        <line num="69" type="stmt" count="10"/>
+        <line num="71" type="stmt" count="10"/>
+        <line num="72" type="stmt" count="10"/>
+        <line num="74" type="stmt" count="10"/>
+        <line num="75" type="stmt" count="10"/>
+        <line num="76" type="stmt" count="10"/>
+        <line num="77" type="stmt" count="10"/>
+        <line num="78" type="stmt" count="10"/>
+        <line num="80" type="stmt" count="10"/>
+        <line num="82" type="stmt" count="10"/>
+        <line num="83" type="stmt" count="10"/>
+        <line num="85" type="stmt" count="10"/>
+        <line num="86" type="stmt" count="10"/>
+        <line num="87" type="stmt" count="10"/>
+        <line num="88" type="stmt" count="10"/>
+        <line num="89" type="stmt" count="10"/>
+        <line num="91" type="stmt" count="10"/>
+        <line num="93" type="stmt" count="10"/>
+        <line num="94" type="stmt" count="10"/>
+        <line num="96" type="stmt" count="10"/>
+        <line num="97" type="stmt" count="10"/>
+        <line num="98" type="stmt" count="10"/>
+        <line num="99" type="stmt" count="10"/>
+        <line num="100" type="stmt" count="10"/>
+        <line num="102" type="stmt" count="10"/>
+        <line num="103" type="stmt" count="10"/>
+        <line num="104" type="stmt" count="10"/>
+        <line num="196" type="stmt" count="10"/>
+        <line num="235" type="stmt" count="10"/>
+        <metrics loc="105" ncloc="83" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="43" elements="44" coveredelements="44"/>
+      </file>
+    </package>
+    <metrics files="6" loc="457" ncloc="385" classes="4" methods="6" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="199" coveredstatements="182" elements="205" coveredelements="186"/>
+  </project>
+</coverage>

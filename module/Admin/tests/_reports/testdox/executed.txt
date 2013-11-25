@@ -1,0 +1,10 @@
+UserController
+ [ ] User index action
+ [ ] User save action new request
+ [ ] User save action update form request
+ [ ] User save action post request
+ [ ] User update action
+ [ ] User save action invalid post request
+ [ ] User invalid delete action
+ [ ] User delete action
+

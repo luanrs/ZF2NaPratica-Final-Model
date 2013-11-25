@@ -1,0 +1,19 @@
+Application\Model\Comment
+ [x] Get input filter
+ [x] Input filter valid
+ [x] Input filter invalido
+ [x] Insert
+ [x] Insert invalid
+ [x] Update
+ [x] Update invalido
+ [x] Delete
+
+Application\Model\Post
+ [x] Get input filter
+ [x] Input filter valid
+ [x] Input filter invalido
+ [x] Insert
+ [x] Insert invalido
+ [x] Update
+ [x] Delete
+

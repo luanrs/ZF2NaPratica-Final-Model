@@ -30,6 +30,17 @@
                     <div class="nav-collapse">
                         <ul class="nav">
                             <li class="active"><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
+                            <li>
+                            	<?php $user = $this->session()->offsetGet('user'); ?>
+                            	<?php if($user): ?> 
+                            		<a href="/admin/auth/logout"><?php echo $this->translate("Sair")?></a>
+                            	<?php else: ?>
+                            		<a href="/admin/auth/index"><?php echo $this->translate("Entrar")?></a>
+                            	<?php endif; ?>
+                            </li>
+                            <?php if($user): ?>                            	
+                            	<span style="color:white;"><?php echo $user->name ?></span>
+                            <?php endif;?>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>

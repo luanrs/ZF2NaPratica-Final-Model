@@ -2,11 +2,22 @@
 
 return array(
     'db' => array(
-        'driver' => 'PDO_SQLite',
-        'dsn' => 'sqlite::memory:',
+        'driver' => 'PDO',
+        'dsn' => 'mysql:dbname=zf2napratica_test;host=localhost',
+        'username' => 'zend',
+	'password' => 'zend',
         'driver_options' => array(
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
         )
-    )
-
+    ),
+	'doctrine' => array(
+		'connection' => array(
+			'driver' => pdo_mysql,
+			'host' => 'localhost',
+			'port' => '3306',
+			'user' => 'zend',
+			'password' => 'zend',
+			'dbname' => 'zf2napratica_test'			
+		)		
+	)
 );

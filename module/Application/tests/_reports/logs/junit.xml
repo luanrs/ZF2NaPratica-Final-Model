@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="15" assertions="38" failures="0" errors="0" time="10.409639">
+    <testsuite name="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" namespace="Application\Model" fullPackage="Application.Model" tests="8" assertions="21" failures="0" errors="0" time="6.528462">
+      <testcase name="testGetInputFilter" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="13" assertions="1" time="0.906737"/>
+      <testcase name="testInputFilterValid" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="24" assertions="8" time="0.504516"/>
+      <testcase name="testInputFilterInvalido" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="40" assertions="1" time="0.453482"/>
+      <testcase name="testInsert" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="45" assertions="2" time="0.947745"/>
+      <testcase name="testInsertInvalid" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="57" assertions="1" time="0.878061"/>
+      <testcase name="testUpdate" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="64" assertions="3" time="0.953533"/>
+      <testcase name="testUpdateInvalido" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="88" assertions="2" time="1.021248"/>
+      <testcase name="testDelete" class="Application\Model\CommentTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/CommentTest.php" line="104" assertions="3" time="0.863140"/>
+    </testsuite>
+    <testsuite name="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" namespace="Application\Model" fullPackage="Application.Model" tests="7" assertions="17" failures="0" errors="0" time="3.881178">
+      <testcase name="testGetInputFilter" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="12" assertions="1" time="0.389567"/>
+      <testcase name="testInputFilterValid" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="23" assertions="5" time="0.442366"/>
+      <testcase name="testInputFilterInvalido" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="35" assertions="1" time="0.362955"/>
+      <testcase name="testInsert" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="40" assertions="2" time="0.462581"/>
+      <testcase name="testInsertInvalido" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="51" assertions="2" time="0.612000"/>
+      <testcase name="testUpdate" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="59" assertions="3" time="0.904586"/>
+      <testcase name="testDelete" class="Application\Model\PostTest" file="/home/luan/Desenvolvimento/zf2napratica/module/Application/tests/src/Application/Model/PostTest.php" line="82" assertions="3" time="0.707123"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
